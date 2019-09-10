@@ -1,0 +1,111 @@
+body{
+    color:rgba(0, 0, 0, .6)!important;
+}
+a{
+    color:rgba(0, 0, 0, .6)!important;
+}
+/* NavBar */
+.navbar{
+    z-index:1001;
+}
+.navbar-custom{
+    width: 100%;
+}
+.masthead{
+    background-image: url(../images/new-banner.png);
+    height: 100vh;
+}
+#mainCustom .navbar{
+    background-color: #fff;
+    padding: 15px 0px;
+    position: absolute;
+    width: 100%;
+}
+#mainCustom .navbar.nav_fixed#mainNav{
+    position: fixed;
+    padding: 13px;
+    width: 100%;
+    top: -70px;
+    left: 0px;
+    right: 0px;
+    background: #fff;
+    transform: translateY(70px);
+    transition: transform 500ms ease, background 500ms ease;
+    -webkit-transition: transform 500ms ease, background 500ms ease;
+    box-shadow: 0px 3px 14px 0px rgba(0, 0, 0, .1);
+    z-index: 1002;
+}
+.greeting{
+    margin-top: 170px; 
+}
+.greeting .text-uppercase{
+    position: relative;
+    font-weight: 500;
+    margin-bottom: -4px;
+    font-size: 30px;
+    color: rgba(0, 0, 0, .6);
+}
+
+h2.text-uppercase{
+    font-weight: 600;
+    margin-left: 29px;
+    font-size: 35px!important;
+}
+.greeting small{
+    display: block;
+    color: rgba(0, 0, 0, .6);
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.banner-greeting img{
+    width: 100%;
+    margin-top: 150px;
+}
+
+/* Services */
+/* Card */
+.card-custom{
+    padding: 30px 20px;
+    text-align: center;
+    background-color: #f9f9fd;
+    margin: 30px 0px;
+    cursor: pointer;
+    transition: all .6s ease 0s;
+}
+.card-custom:hover{
+    box-shadow: 0px 15px 35px rgba(66, 165, 245, .4);
+    background: #fff;
+}
+
+hr.custom{
+    width: 400px;
+    height: 1px;
+    border-radius: 50%;
+    box-shadow: .5px .6px 1px rgba(66, 165, 245, .3);
+    /* padding: 5px; */
+    background: rgba(0, 0, 0, .4);
+}
+.bg-second{
+    background: #f9f9fa;
+}
+.img-port{
+    width: 100%;
+    box-shadow: 1.7px 1.7px 30px rgba(149, 165, 166, .3);
+}
+.port-title{
+    font-size: 20px;
+}
+p.custom-detail{
+    font-weight: 500;
+    font-size: 17px;
+}
+a.detail{
+    font-size: 19px;
+    font-weight: 600;
+}
+a.detail:hover{
+    text-decoration: none;
+}
+/* // Services */
