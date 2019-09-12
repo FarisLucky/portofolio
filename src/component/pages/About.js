@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Header from '../common/Header';
+import Header from './sub/Header';
 
 export default class About extends Component{
     render(){
@@ -9,7 +9,7 @@ export default class About extends Component{
             'btn':'Gabung',
             'link':'/daftar',
             'showBtn':true
-          }
+        }
         return(
             <div>
                 <Header data = {data_props} />

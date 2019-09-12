@@ -23,7 +23,7 @@ a{
 }
 #mainCustom .navbar.nav_fixed#mainNav{
     position: fixed;
-    padding: 13px;
+    padding: 5px;
     width: 100%;
     top: -70px;
     left: 0px;
@@ -93,6 +93,10 @@ hr.custom{
 .img-port{
     width: 100%;
     box-shadow: 1.7px 1.7px 30px rgba(149, 165, 166, .3);
+    transition: all .8s ease-in;
+}
+.img-port:hover{
+    box-shadow: 1.7px 1.7px 30px rgba(66, 165, 245, .6);
 }
 .port-title{
     font-size: 20px;
@@ -100,6 +104,7 @@ hr.custom{
 p.custom-detail{
     font-weight: 500;
     font-size: 17px;
+    line-height: 40px;
 }
 a.detail{
     font-size: 19px;

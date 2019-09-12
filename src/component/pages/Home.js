@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Header from '../common/Header';
+import Header from './sub/Header';
 import Service from './sub/Service'
 // Load Image
 import Images from '../assets/images/home.png';
@@ -7,7 +7,7 @@ import Svc1 from '../assets/images/service/svc1.png';
 import Svc2 from '../assets/images/service/svc2.png';
 import Svc3 from '../assets/images/service/svc3.png';
 import Svc4 from '../assets/images/service/svc4.png';
-import Portfolio from './sub/Portfolio';
+import Portofolio from './sub/Portofolio';
 
 export default class Home extends Component {
   render() {
@@ -51,7 +51,7 @@ export default class Home extends Component {
       <div>
         <Header data = {data_props} />
         <Service data={data_service} />
-        <Portfolio data={data_port} />
+        <Portofolio data={data_port} />
       </div>
     )
   }

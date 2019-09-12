@@ -1,10 +1,10 @@
 import React,{Component} from 'react';
 import { Link } from "react-router-dom";
 import Logo from '../component/assets/images/logo.png';
+
 class PageWrapper extends Component {
   
   render(){
-    
     return(
       <div className="Web-Custom" id="mainCustom">
         <nav className="navbar navbar-expand-lg navbar-dark" id="mainNav">
